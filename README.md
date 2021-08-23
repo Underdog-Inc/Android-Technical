@@ -1,17 +1,12 @@
 # Underdog Technical Challenge
-Given the current skeleton of a project, let's complete the implementation to get something on screen. I would like you to build a simple scrolling grid of characters (2 columns). You can find information on the structure of your data below, along with some other resources that are already included in the project.
+Given the current skeleton of a project, let's complete the implementation to get something on screen. I would like you to build a simple scrolling grid of characters. You can find information on the structure of your data below, along with some other resources that are already included in the project.
 
-For the screen, I would like to see a **loading state** immediately (let's assume the data came from an actual API), then a 2xN grid of scrolling items that each display character name, number of episodes, image, and if they are favorited or not (heart icon).  Upon clicking the heart icon, it should toggle accordingly.
+For the screen, I would like to see a **loading state** immediately (let's assume the data came from an actual API), then a 2xN grid of scrolling items that each display character name, number of episodes, image, and if they are favorited or not (heart icon).  UI decisions are up to you, but let's keep it simple for the sake of time.  Upon clicking the heart icon, it should toggle accordingly.
 
 If there is time, I would like you to:
-    1. Persist the favorited Characters between app launches
-    2. Implement `CharacterViewModel.onCharacterUpdated()`
-
-# Resources
-- [Picasso](#picasso)
-- [Moshi](#moshi)
-- [API Documentation](#api-documentation)
-- [JSON Format](#json-format)
+    
+1. Persist the favorited Characters between app launches
+2. Implement `CharacterViewModel.onCharacterUpdated()`
 
 ## Picasso
 Image loading library: https://square.github.io/picasso/
