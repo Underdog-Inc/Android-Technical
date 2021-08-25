@@ -13,6 +13,9 @@ Image loading library: https://square.github.io/picasso/
 
 ## Moshi
 JSON (de)serialization library: https://github.com/square/moshi
+```
+val moshi = Moshi.Builder().addLast(KotlinJsonAdapterFactory()).build()
+```
 
 ## API Documentation
 The data we are working with for this project can be found here: https://rickandmortyapi.com/documentation
