@@ -29,9 +29,10 @@ status: String,
 species: String,
 type: String,
 gender: String,
-origin: Origin(name: String, url: String)
-location: Location(name: String, url: String)
-episode: List<String>?
-url: String (image url)
+image: String,
+origin: Origin(name: String, url: String),
+location: Location(name: String, url: String),
+episode: List<String>?,
+url: String,
 created: String (ISO timestamp)
 ```
