@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/domre/AndroidStudioProjects/UnderdogTechnical/app/src/main/res/drawable/ic_female.xml" value="0.5703125" />
+        <entry key="..\:/Users/domre/AndroidStudioProjects/UnderdogTechnical/app/src/main/res/drawable/ic_male.xml" value="0.5703125" />
         <entry key="..\:/Users/domre/AndroidStudioProjects/UnderdogTechnical/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/domre/AndroidStudioProjects/UnderdogTechnical/app/src/main/res/layout/grid_item.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/domre/AndroidStudioProjects/UnderdogTechnical/app/src/main/res/layout/view_holder_character.xml" value="0.5541666666666667" />
       </map>
     </option>
   </component>
