@@ -10,6 +10,9 @@ Image loading library: https://square.github.io/picasso/
 
 ## Moshi
 JSON (de)serialization library: https://github.com/square/moshi
+```
+val moshi = Moshi.Builder().addLast(KotlinJsonAdapterFactory()).build()
+```
 
 ## JSON Format
 Located inside the `../src/main/res/raw` folder, there exists a file named `characters.json`.  This file contains a well formatted JSON object that contains a list of `Character` objects. Each character follows this structure:
@@ -20,9 +23,10 @@ status: String,
 species: String,
 type: String,
 gender: String,
-origin: Origin(name: String, url: String)
-location: Location(name: String, url: String)
-episode: List<String>?
-url: String (image url)
+image: String,
+origin: Origin(name: String, url: String),
+location: Location(name: String, url: String),
+episode: List<String>?,
+url: String,
 created: String (ISO timestamp)
 ```
