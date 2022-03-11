@@ -16,9 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewModel.liveData.observe(this) { characterList ->
-            // handle updates
-            Log.i("CHARACTERS", characterList.toString())
-        }
+        TODO("Your implementation here")
     }
 }

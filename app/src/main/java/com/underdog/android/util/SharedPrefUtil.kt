@@ -1,8 +1,9 @@
-package com.underdog.android
+package com.underdog.android.util
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
+import com.squareup.picasso.BuildConfig
 
 object SharedPrefUtil {
 
