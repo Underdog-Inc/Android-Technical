@@ -5,7 +5,7 @@ import java.util.*
 /**
  * Domain layer model.
  */
-data class Character(
+data class ShowCharacter(
     val id: Int,
     val name: String,
     val gender: Gender,

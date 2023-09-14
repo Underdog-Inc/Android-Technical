@@ -3,7 +3,7 @@ package com.underdog.android.models
 /**
  * Model to match "API response".
  */
-data class NetworkCharacter(
+data class NetworkShowCharacter(
     val id: Int,
     val name: String,
     val gender: String,

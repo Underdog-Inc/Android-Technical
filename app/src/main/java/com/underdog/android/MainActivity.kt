@@ -2,20 +2,15 @@ package com.underdog.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
+import androidx.activity.viewModels
 
 class MainActivity : AppCompatActivity() {
 
-    private val viewModel: CharacterViewModel by lazy {
-        ViewModelProvider(this)[CharacterViewModel::class.java]
-    }
+    private val viewModel by viewModels<CharacterViewModel>()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        TODO("Your implementation here")
     }
 }
