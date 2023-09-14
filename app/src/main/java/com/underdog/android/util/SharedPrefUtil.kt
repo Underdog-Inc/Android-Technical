@@ -3,7 +3,7 @@ package com.underdog.android.util
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import com.squareup.picasso.BuildConfig
+import com.underdog.android.BuildConfig
 
 object SharedPrefUtil {
 

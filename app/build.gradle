@@ -33,8 +33,7 @@ android {
 
 dependencies {
 
-    // Picasso
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'io.coil-kt:coil:2.2.2'
 
     // Moshi
     implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'

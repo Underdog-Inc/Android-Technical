@@ -5,11 +5,11 @@ For the screen, I would like to see a **loading state** immediately (let's assum
 
 ![Sample Layout](readme_resources/layout_character.PNG)
 
-## Picasso
-Image loading library: https://square.github.io/picasso/
+## Coil
+[Image loading library]: https://coil-kt.github.io/coil/
 
 ## Moshi
-JSON (de)serialization library: https://github.com/square/moshi
+[JSON (de)serialization library]: https://github.com/square/moshi
 ```
 val moshi = Moshi.Builder().addLast(KotlinJsonAdapterFactory()).build()
 ```
