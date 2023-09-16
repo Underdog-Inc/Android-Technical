@@ -1,7 +1,12 @@
 package com.underdog.android
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import kotlinx.coroutines.flow.flow
 
-class CharacterViewModel : ViewModel() {
+class CharacterViewModel(application: Application) : AndroidViewModel(application) {
+
+    private val applicationContext
+        get() = getApplication<Application>().applicationContext
 
 }
