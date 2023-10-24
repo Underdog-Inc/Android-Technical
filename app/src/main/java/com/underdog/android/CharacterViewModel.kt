@@ -1,7 +1,12 @@
 package com.underdog.android
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import android.content.Context
+import androidx.lifecycle.AndroidViewModel
 
-class CharacterViewModel : ViewModel() {
+class CharacterViewModel(app: Application) : AndroidViewModel(app) {
+
+    private val applicationContext: Context
+        get() = getApplication<Application>().applicationContext
 
 }
