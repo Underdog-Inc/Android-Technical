@@ -33,5 +33,5 @@ class MainActivity : AppCompatActivity() {
 @Preview
 @Composable
 fun LoadingSpinner(modifier: Modifier = Modifier) {
-    CircularProgressIndicator()
+    CircularProgressIndicator(modifier = modifier)
 }
